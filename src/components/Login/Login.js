@@ -35,18 +35,34 @@ class Login extends Component {
 
     const authForm = (
       <Fragment>
-        <img src="images/swedavia-logo.png" alt="Swedavia logo" />
+        <header>
+          <div></div>
+          <div>
+            <h1>Swedavia</h1>
+            <h2>swedish airports</h2>
+          </div>
+
+        </header>
         <form>
-          <input type="text" placeholder="Username"
-                name='email'
-                value={ email }
-                onChange={ this.handleChangeForm }
-          />
-          <input type="text" placeholder="Password"
-                name='password'
-                value={ password }
-                onChange={ this.handleChangeForm }
-          />
+          <fieldset>          
+            <input type="text" 
+                  name='email'
+                  id='email'
+                  value={ email }
+                  onChange={ this.handleChangeForm }
+            />
+            <label for="email">Username</label>
+          </fieldset>
+
+          <fieldset>
+            <input type="text"
+                  name='password'
+                  id='pass'
+                  value={ password }
+                  onChange={ this.handleChangeForm }
+            />
+            <label for="pass">Password</label>
+          </fieldset>
           <fieldset>
             <button onClick={ this.handleClick } email={email}
             > Отправить
