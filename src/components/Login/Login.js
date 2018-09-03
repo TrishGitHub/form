@@ -51,12 +51,12 @@ class Login extends Component {
             <button onClick={ this.handleClick } email={email}
             > Отправить
             </button>
-            <a href="#" title="Forgot password link">Forgot password?</a>
+            <a href={null} title="Forgot password link">Forgot password?</a>
           </fieldset>
           {errors !== '' ? <span>{ errors }</span> : null}
         </form>
         <p>
-          Powered by <a href="#" title="Cygate link">Cygate</a>
+          Powered by <a href={null} title="Cygate link">Cygate</a>
         </p>
       </Fragment>
     )

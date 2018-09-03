@@ -1,10 +1,10 @@
-npm i
-npm run start
+npm i <br>
+npm run start<br><br>
 
-http://localhost:3000/public (public page)
-http://localhost:3000/login (private page)
+http://localhost:3000/public (public page)<br>
+http://localhost:3000/login (private page)<br><br>
 
-Username: User
+Username: User<br>
 Password: 1111
 
 

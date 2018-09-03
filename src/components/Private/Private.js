@@ -20,7 +20,7 @@ class Private extends Component {
             <p>Private page</p>;
             <Modal show={ isModalShow }>
                 <article>
-                    <h1>Добро пожаловать, { name }!</h1>
+                    <p>Добро пожаловать, { name }!</p>
                     <button onClick={this.hideModal}>
                         Close
                     </button>
